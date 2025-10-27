@@ -1,6 +1,6 @@
-# 🚀 **DevScribe - Your Simple Yet Powerful CMS**
+🚀 EchoVerse - Express Your Thoughts, Effortlessly
 
-DevScribe is a sleek, modern **Content Management System (CMS)** that combines the efficiency of **React JS** and **Tailwind CSS** on the frontend with the robustness of **Django** on the backend. It leverages **SQLite3** as its database to offer a smooth and efficient development experience.
+EchoVerse is a full-stack Blog Content Management System (CMS) that combines the efficiency of **React JS** and **Tailwind CSS** on the frontend with the robustness of **Django** on the backend. It leverages **SQLite3** as its database to offer a smooth and efficient development experience.
 
 ---
 
@@ -25,38 +25,36 @@ DevScribe is a sleek, modern **Content Management System (CMS)** that combines t
 
 ---
 
-# 📦 **Setup Instructions**
+📦 Setup Instructions
 
-Follow these steps to get **DevScribe** up and running on your local machine.
+Follow these steps to run EchoVerse locally 👇
 
-## 🔹 **1. Clone the Repository**
-```bash
-git clone https://github.com/CodeWithClinton/devscribe
-```
+🔹 1. Clone the Repository
+git clone https://github.com/YashMoney/EchoVerse.git
+
+🔹 2. Backend Setup (Django)
+cd backend
+python -m venv venv
+venv\Scripts\activate      # (Use source venv/bin/activate for macOS/Linux)
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 
 
-## 🔹 2. Navigate to the Project Folder
-```bash
-cd devscribe
-```
+Your backend will start at:
+🌐 http://127.0.0.1:8000/
 
+🔹 3. Frontend Setup (React)
 
-## 🔹 3. Frontend Setup (React)
-Install the required dependencies:
-```bash
+In a new terminal:
+
+cd frontend
 npm install
-```
-
-## 🔹 4. Start the Development Server
-Run the React development server:
-```bash
 npm run dev
-```
-
-> **Note:** The backend API is hosted on a free live server, so initial data fetch may take up to **50 seconds**.
 
 
----
+Your frontend will run at:
+💻 http://localhost:5173/
 
 ## ⚡ Usage
 
